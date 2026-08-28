@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch: # 允许在 GitHub 仓库 Actions 页面手动触发
 
 permissions:
   contents: write
